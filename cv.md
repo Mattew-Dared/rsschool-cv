@@ -19,16 +19,15 @@ I'm an enthusiastic and detail-oriented Junior Front-End Developer seeking an en
 
 ### Work Experience
 
-UI/UX Designer - Axel4 Grupp
-
-##### January 2021 - up to now
+- UI/UX Designer - Axel4 Grupp
+  _January 2021 - up to now_
 
 ### Education
 
 #### Lviv Computer Science School
 
-UI/UX Designer
-September 2011 - April 2014
+- UI/UX Designer
+  _September 2011 - April 2014_
 
 ### Contacts
 
