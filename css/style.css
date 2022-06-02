@@ -1,0 +1,295 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* main styles */
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+/* main content styles */
+
+.main-content {
+  background-color: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 105px 90px;
+}
+
+/* about styles */
+
+.about {
+  margin-bottom: 40px;
+}
+
+.about_position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.about_position_orange {
+  color: #fb6d3a;
+}
+
+.about_name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 1px;
+}
+
+.about_description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
+  margin-top: 25px;
+}
+
+/* project styles */
+
+.projects {
+  margin-bottom: 50px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.project_list {
+  padding: 0px;
+  margin-left: 18px;
+}
+
+.project_item,
+.project_bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.project_text,
+.project_link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.project_link {
+  margin-left: 10px;
+}
+
+/* work styles */
+
+.work {
+  margin-bottom: 45px;
+}
+
+.work_position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+/* orange_title styles */
+.work_organization {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.work_period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.work_period_2 {
+  margin-bottom: 20px;
+}
+
+.line {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  padding: 0px 10px;
+}
+
+.work_list {
+  padding: 0px;
+  margin-left: 20px;
+}
+
+.work_item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* education styles */
+
+.education_place {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
+
+.education_profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.education_profession_online {
+  color: #8a8a8a;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* sidebar styles */
+
+.sidebar {
+  background-color: #1e2939;
+
+  padding-top: 40px;
+  width: 370px;
+}
+
+/* photo styles */
+
+.photo {
+  width: 370px;
+  margin-bottom: 30px;
+}
+
+/* contacts-skills */
+
+.sidebar_title {
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.contacts,
+.techskills,
+.softskills,
+.languages {
+  margin-left: 40px;
+}
+
+.contacts {
+  margin-bottom: 50px;
+}
+
+.techskills {
+  margin-bottom: 45px;
+}
+
+.contact_type {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.contact_link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #dadada;
+}
+
+/* techskills list */
+.techskills_list,
+.softskills_list {
+  color: white;
+  padding: 0px;
+  margin-left: 20px;
+}
+
+/* techskills styles */
+.techskills_items,
+.softskills_items {
+  color: #fb6d3a;
+}
+
+/* techskills text styles */
+.techskills_text,
+.softskills_text {
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.softskills_text_2 {
+  color: #b3b3b3;
+}
+
+.languages {
+  margin-top: 40px;
+}
+
+.languages_title {
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+   } */
