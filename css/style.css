@@ -99,6 +99,9 @@ body {
 .project_link {
   margin-left: 10px;
 }
+.project_link:hover {
+  color: #fb6d3a;
+}
 
 /* work styles */
 
@@ -242,6 +245,10 @@ body {
   line-height: 24px;
   color: #dadada;
 }
+.contact_link:hover {
+  font-weight: 600;
+  color: #fb6d3a;
+}
 
 /* techskills list */
 .techskills_list,
@@ -284,12 +291,38 @@ body {
   margin-bottom: 10px;
 }
 
-/* .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
-    color: black;
-    text-align: center;
-   } */
+.footer {
+  width: 1200px;
+  padding: 1.5rem 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  column-gap: 3rem;
+  align-items: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fb6d3a;
+}
+
+.footer-link:hover {
+  font-weight: 600;
+}
+
+.footer-year:hover {
+  color: #fb6d3a;
+}
+
+.footer-logo {
+  width: 4rem;
+  transition: 0.3s;
+}
+
+.footer-logo:hover {
+  transform: scale(1.2);
+}
