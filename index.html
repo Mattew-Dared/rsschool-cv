@@ -1,135 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yurii Matskiv. CV</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <base target="_blank">
-</head>
-<body>
-
-
-<!--Main-->
-<div class="main">
-<!--main content-->
-<div class="main-content">
-<!--about user-->
-<div class="about">
-    <h3 class="about_position">Trainee Front-End <span class="about_position_orange">Developer</span></h3>
-<h1 class="about_name">Yurii Matskiv</h1>
-<p class="work_period">02/03/1996</p>
-<p class="about_description">I'm an enthusiastic and detail-oriented Junior Front-End Developer seeking an entry-level position with Company to use my skills in codding, troubleshooting complex problems, and assisting in the timely complection of projects.</p>
-</div>
-
-<!--projects-->
-<div class="projects">
-<h3 class="title">Projects</h3>
-<ol class="project_list">
-    <li class="project_item">
-        <span class="project_text">
-            <a href="YourProblems" class="project_link">https://eclectic-mousse-fad1c7.netlify.app/</a>
-            ............
-            <span class="project_bracket">[</span> HTML5, CSS3, JavaScript <span class="project_bracket">]</span>
-        </span>
-    </li>
-    <li class="project_item"> 
-        <span class="project_text">
-        <a href="Rhytm" class="project_link">https://whimsical-kashata-3c4c7f.netlify.app/</a>
-        .............
-        <span class="project_bracket">[</span> HTML5, CSS3 <span class="project_bracket">]</span>
-    </span>
-    </li>
-    <li class="project_item">
-        <span class="project_text">
-        <a href="GoCorona" class="project_link">https://project-gocorona-second.netlify.app/</a>
-        ....................
-        <span class="project_bracket">[</span> HTML5, CSS3 <span class="project_bracket">]</span>
-    </span>
-    </li>
-</ol>
-</div>
-
-<!--work-->
-<div class="work">
-<h3 class="title">Work Experience</h3>
-<!--company 1-->
-<div>
-<h4 class="work_position">UI/UX Designer - <span class="work_organization">Axel4 Grupp OU</span></h4>
-<p class="work_period">January 2021 - up to now  <span class="line">|</span>    Estonia</p>
-<ul class="work_list"><li class="work_item">Create UX/UX design web-site templates.</li>
-    <li class="work_item">Internship for beginners in the workplace.</li>
-</div>
-</div>
-
-<!--education-->
-<div>
-    <h3 class="title">Education</h3>
-    <h4 class="education_place">Lviv Computer Science School</h4>
-    <p class="education_profession">UI/UX Designer</p>
-    <p class="work_period">September 2011 - April 2014   <span class="line">|</span>   Ukraine</p>
-</div>
-</div>
-
-
-<!--sidebar-->
-<aside class="sidebar">
-<img class="photo" src="./img/photo_2021-11-17_00-12-35.jpg" alt="user photo">
-<!--contacts-->
-<div class="contacts">
-    <h3 class="sidebar_title">Contacts</h3>
-    <div>
-        <p class="contact_title_2"><span class="contact_type">C:</span> <a href="tel:+380935330643" class="contact_link">+380939393939</a></p>
-        <p><span class="contact_type">E:</span> <a href="mailto:dd96ua@gmail.com" class="contact_link">dd96ua@gmail.com</a></p>
-        <p><span class="contact_type">iN:</span> <a href="mailto:https://www.linkedin.com/in/yurii-matskiv-638111231/" class="contact_link">linkedin.com/in/yurii-matskiv</a></p>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <base target="_blank" /> -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <a class="nav-logo" href="#">Yurii Matskiv</a>
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#courses" class="nav-link">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a href="#code" class="nav-link">Code</a>
+              </li>
+              <li class="nav-item">
+                <a href="#education" class="nav-link">Education</a>
+              </li>
+              <li class="nav-item">
+                <a href="#languages" class="nav-link">Languages</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!--Main-->
+      <main class="main">
+        <!--main content-->
+        <div class="container main-content__box main-container">
+          <!-- section-big -->
+          <section class="section-big" id="about">
+            <div class="section-big-image">
+              <img src="./img/photo_2021-11-17_00-12-35.jpg" alt="" />
+            </div>
+            <div class="section-big-title title title-center">
+              <h1 class="title-main">Yurii Matskiv</h1>
+              <h2 class="title-second">Trainee JavaScript Developer</h2>
+            </div>
+          </section>
+          <!-- section contacts -->
+          <section class="section" id="contacts">
+            <h2 class="section-title">contacts</h2>
+            <ul class="section-list list">
+              <li class="section-item">
+                <img src="./img/location-svgrepo-com.svg" alt="location" />
+                Lviv, Ukraine
+              </li>
+              <li class="section-item">
+                <img src="./img/email-svgrepo-com.svg" alt="email" /> Email:
+                <a href="mailto:dd96ua@gmail.com">dd96ua@gmail.com</a>
+              </li>
+              <li class="section-item">
+                <img src="./img/github-svgrepo-com.svg" alt="github" /> GitHub:
+                <a href="https://github.com/Mattew-Dared">Mattew-Dared</a>
+              </li>
+              <li class="section-item">
+                <img src="./img/telegram-svgrepo-com.svg" alt="telegram" />
+                Telegram:
+                <a href="https://github.com/Mattew-Dared">@MattewDared</a>
+              </li>
+              <li class="section-item">
+                <img src="./img/discord-svgrepo-com.svg" alt="discord" />
+                Discord:
+                <a href="https://github.com/Mattew-Dared">MattewDared#0531</a>
+              </li>
+              <li class="section-item">
+                <img src="./img/phone-call-svgrepo-com.svg" alt="phone" />
+                Phone:
+                <a href="tel:+380935330643">+380935330643</a>
+              </li>
+              <li class="section-item">
+                <img
+                  src="./img/linkedin-svgrepo-com.svg"
+                  alt="linkedin"
+                />LinkedIn:
+                <a
+                  href="mailto:https://www.linkedin.com/in/yurii-matskiv-638111231/"
+                  class="contact_link"
+                  >linkedin.com/in/yurii-matskiv</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="summary">
+            <h2 class="section-title">summary</h2>
+            <p class="section-description">
+              I like programming. It is fascinating and interesting. I have a
+              main job, programming is a hobby for me. I have completed several
+              training projects and now I would like to take part in the
+              creation of a real JavaScript project. My goal is to learn a pure
+              JavaScript at a good level and learn the React library. I will be
+              glad to join the creation of open source projects. I would like to
+              work under the guidance of an experienced developer to gain
+              practical experience.
+            </p>
+          </section>
+          <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list list">
+              <li class="section-item item">
+                <img src="./img/point-svgrepo-com.svg" alt="point" />
+                Web-development:
+                <span class="item-color">HTML5, CSS3, JavaScript</span>
+              </li>
+              <li class="section-item item">
+                <img src="./img/point-svgrepo-com.svg" alt="point" /> Frameworks
+                and libraries: <span class="item-color">React</span>
+              </li>
+              <li class="section-item item">
+                <img src="./img/point-svgrepo-com.svg" alt="point" /> Version
+                control: <span class="item-color">Git, GitHub</span>
+              </li>
+              <li class="section-item item">
+                <img src="./img/point-svgrepo-com.svg" alt="point" /> Graphics:
+                <span class="item-color">
+                  Figma, Adobe Photoshop, Adobe Illustrator</span
+                >
+              </li>
+              <li class="section-item item">
+                <img src="./img/point-svgrepo-com.svg" alt="point" /> Video &
+                Audio:
+                <span class="item-color">Adobe Premire Pro, REAPER</span>
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="projects">
+            <h2 class="section-title">projects</h2>
+            <ul class="section-list list">
+              <li class="section-item item">
+                <img src="./img/point-svgrepo-com.svg" alt="point" />
+                <a
+                  target="_blank"
+                  href="https://eclectic-mousse-fad1c7.netlify.app/"
+                  >YourProblems</a
+                >
+              </li>
+              <li class="section-item item">
+                <img src="./img/point-svgrepo-com.svg" alt="point" />
+                <a
+                  target="_blank"
+                  href="https://whimsical-kashata-3c4c7f.netlify.app/"
+                  >Rhytm</a
+                >
+              </li>
+              <li class="section-item item">
+                <img src="./img/point-svgrepo-com.svg" alt="point" />
+                <a
+                  target="_blank"
+                  href="https://project-gocorona-second.netlify.app/"
+                  >GoCorona</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul class="section-list list">
+              <li class="section-item item">
+                <img src="./img/point-svgrepo-com.svg" alt="point" />
+                Udemy:
+                <span class="item-color"
+                  >Web Development By Doing: HTML / CSS
+                </span>
+              </li>
+              <li class="section-item item">
+                <img src="./img/point-svgrepo-com.svg" alt="point" />
+                Udemy:
+                <span class="item-color">JavaScript for beginner </span>
+              </li>
+              <li class="section-item item">
+                <img src="./img/point-svgrepo-com.svg" alt="point" />
+                RS-School:
+                <span class="item-color">Front-End Developer Course </span>
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <div class="section-description">
+              <pre class="section-pre">
+                <code class="section-code">
+"const menuIcon = document.querySelector(".menu__icon");
+const menuBody = document.querySelector(".menu__body");
+if (menuIcon) { 
+  menuIcon.addEventListener("click", function (e) {
+    document.body.classList.toggle("_lock");
+    menuIcon.classList.toggle("_active");
+    menuBody.classList.toggle("_active");
+  });
+ }"
+                </code>
+              </pre>
+            </div>
+          </section>
+          <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <p class="section-description">Lviv Computer Science College</p>
+          </section>
+          <section class="section" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <p class="section-description">Ukrainian (Native)</p>
+            <p class="section-description">Russian (Fluent)</p>
+            <p class="section-description">English (Pre-Intermediate)</p>
+          </section>
+        </div>
+      </main>
+      <!--Footer-->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <a class="footer-link" href="https://github.com/Mattew-Dared"
+              >GitHub profile</a
+            >
+            <span class="footer-year">@MattewDared, <b>2022</b></span>
+            <a class="footer-logo" href="https://rs.school/js/"
+              ><img src="./img/rs_school_js.svg" alt="logo"
+            /></a>
+          </div>
+        </div>
+      </footer>
     </div>
-</div>
-
-<!--techskills-->
-<div class="techskills">
-    <h3 class="sidebar_title">Tech Skills</h3>
-    <ul class="techskills_list">
-        <li class="techskills_items"><span class="techskills_text">HTML & CSS</span></li>
-        <li class="techskills_items"><span class="techskills_text">JavaScript</span></li>
-        <li class="techskills_items"><span class="techskills_text">Adobe Photoshop</span></li>
-        <li class="techskills_items"><span class="techskills_text">Adobe Premiere Pro</span></li>
-        <li class="techskills_items"><span class="techskills_text">REAPER</span></li>
-    </ul>
-</div>
-
-<!--softskills-->
-<div class="softskills">
-    <h3 class="sidebar_title">Soft Skills</h3>
-    <ul class="softskills_list">
-        <li class="softskills_items"><span class="softskills_text">Listening</span></li>
-        <li class="softskills_items"><span class="softskills_text">Creativity</span></li>
-        <li class="softskills_items"><span class="softskills_text">Honesty</span></li>
-        <li class="softskills_items"><span class="softskills_text">Teamwork</span></li>
-    </ul>
-</div>
-
-<!--languages-->
-<div class="languages">
-    <h3 class="languages_title">Languages</h3>
-    <ul class="softskills_list">
-        <li class="softskills_items"><span class="softskills_text">Ukrainian <span class="softskills_text_2">- [ Native ]</span></span></li>
-        <li class="softskills_items"><span class="softskills_text">Russian <span class="softskills_text_2">- [ Fluent ]</span></li>
-        <li class="softskills_items"><span class="softskills_text">English <span class="softskills_text_2">- [ Intermediate ]</span></li>
-    </ul>
-</div>
-
-</aside>
-
-
-<!-- footer -->
-<!-- <footer class="footer">Made by @MattewDared.</footer> -->
-
-
-</div>
-
-</body>
+  </body>
 </html>
